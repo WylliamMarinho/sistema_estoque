@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5eddcdf-219a-4520-8c57-c33e05a4b301" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sistema_estoque.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sistema_estoque/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sistema_estoque/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sistema_estoque/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sistema_estoque/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sistema_estoque/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estoque/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +76,7 @@
       <workItem from="1758480419550" duration="64000" />
       <workItem from="1758480546474" duration="148000" />
       <workItem from="1758480705272" duration="709000" />
+      <workItem from="1758481550232" duration="1096000" />
     </task>
     <servers />
   </component>
