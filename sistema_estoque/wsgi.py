@@ -1,5 +1,5 @@
 """
-WSGI config for Sistema_de_Estoque project.
+WSGI config for sistema_estoque project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

@@ -1,5 +1,5 @@
 """
-ASGI config for Sistema_de_Estoque project.
+ASGI config for sistema_estoque project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
