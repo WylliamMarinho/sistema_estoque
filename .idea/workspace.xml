@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5eddcdf-219a-4520-8c57-c33e05a4b301" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/estoque/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +77,8 @@
       <workItem from="1758480546474" duration="148000" />
       <workItem from="1758480705272" duration="709000" />
       <workItem from="1758481550232" duration="1096000" />
+      <workItem from="1758551715003" duration="23000" />
+      <workItem from="1758551746117" duration="111000" />
     </task>
     <servers />
   </component>
