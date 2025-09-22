@@ -1,0 +1,17 @@
+# Ambiente virtual
+.venv/
+env/
+
+# Variáveis de ambiente
+.env
+
+# Arquivos de log e cache do Django
+__pycache__/
+*.pyc
+
+# Mídias e estáticos gerados
+media/
+static/
+
+# Arquivos de banco de dados
+*.db
