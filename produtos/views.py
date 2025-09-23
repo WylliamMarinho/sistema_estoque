@@ -3,8 +3,10 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from django.db import IntegrityError
 from .models import Produto
+from sistema_estoque.auth_required import auth_required
 
 @api_view(['GET', 'POST'])
+@auth_required # Protege a rota de listagem e criação
 def produtos_list(request):
     if request.method == 'GET':
         s = request.query_params.get('s', None)
@@ -35,6 +37,7 @@ def produtos_list(request):
             return Response({"detail": f"Erro inesperado: {e}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 @api_view(['PUT'])
+@auth_required # Protege a rota de atualização
 def produto_detail(request, id_produto):
     try:
         produto = Produto.objects.get(id=id_produto)

@@ -2,11 +2,13 @@ from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from datetime import datetime
+from sistema_estoque.auth_required import auth_required
 from .models import Estoque
 from produtos.models import Produto
 
 
 @api_view(['GET', 'POST'])
+@auth_required
 def estoque_list(request, codigo):
     try:
         produto = Produto.objects.get(codigo=codigo)

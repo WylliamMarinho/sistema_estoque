@@ -3,9 +3,11 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from produtos.models import Produto
 from estoque.models import Estoque
+from sistema_estoque.auth_required import auth_required
 from vendas.models import Venda, ItemVenda
 
 @api_view(['GET'])
+@auth_required
 def relatorio_produto(request, produto_id):
     try:
         produto = Produto.objects.get(id=produto_id)

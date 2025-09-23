@@ -1,7 +1,7 @@
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from sistema_estoque.core.auth_required import auth_required
+from sistema_estoque.auth_required import auth_required
 from .models import Cliente
 
 @api_view(['GET', 'POST'])
