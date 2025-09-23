@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5eddcdf-219a-4520-8c57-c33e05a4b301" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/auth_middleware.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_estoque/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_estoque/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
@@ -79,6 +82,10 @@
       <workItem from="1758481550232" duration="1096000" />
       <workItem from="1758551715003" duration="23000" />
       <workItem from="1758551746117" duration="111000" />
+      <workItem from="1758551897847" duration="982000" />
+      <workItem from="1758553249498" duration="3842000" />
+      <workItem from="1758637084052" duration="716000" />
+      <workItem from="1758638270738" duration="7000" />
     </task>
     <servers />
   </component>

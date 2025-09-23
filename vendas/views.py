@@ -2,12 +2,14 @@ from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from django.db import transaction
+from sistema_estoque.auth_required import auth_required
 from .models import Venda, ItemVenda
 from clientes.models import Cliente
 from estoque.models import Estoque
 
 
 @api_view(['POST'])
+@auth_required
 def registrar_venda(request):
     try:
         with transaction.atomic():
